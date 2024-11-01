@@ -23,5 +23,16 @@ To run the application locally using Docker, follow these steps:
 
 ### Step 1: Build the Docker Image
 Navigate to your project directory and build the Docker image:
+### Step 2: Pull the Docker Image
+To pull an image from Docker Hub or another registry:
+### Step 3: Run the Docker Container
+Run a container from the image:
+### Step 4: Push the Docker Image to a Registry
+If you've made updates to the image and need to push it to a Docker registry, use:
+
 ```bash
 docker build -t harshraj1695/portfolio-website:latest .
+docker pull harshraj1695/portfolio-website:latest
+docker run -d -p 8080:80 harshraj1695/portfolio-website:latest
+
+
