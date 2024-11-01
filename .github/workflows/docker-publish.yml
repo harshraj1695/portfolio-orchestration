@@ -21,8 +21,8 @@ jobs:
 
     - name: Build the Docker image
       run: |
-        docker build -t your-dockerhub-username/your-repo-name:latest .
+        docker build -t harsh1695/my-portfolio:latest .
 
     - name: Push the Docker image
       run: |
-        docker push your-dockerhub-username/your-repo-name:latest
+        docker push harsh1695/my-portfolio:latest
