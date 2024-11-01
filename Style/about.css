@@ -1,0 +1,129 @@
+:root {
+    --bg-color: #191f36;
+    --snd-bg-color: #262B40;
+    --text-color: #fff;
+    --main-color: #59B2F4;
+}
+
+/* Basic Reset */
+body, h1, h2, h3, h4, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Text Center */
+.text-center {
+    text-align: center;
+}
+
+.img-lines {
+    max-width: 50%;
+    height: auto;
+    border: .2rem solid var(--main-color);
+    color: var(--main-color);
+    transition: .5s ease;
+}
+
+/* Section Styles */
+.site-section {
+    padding: 50px 0;
+}
+
+.section-about {
+    background: var(--snd-bg-color);
+    color: var(--text-color);
+}
+
+.section-skills {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: var(--main-color);
+}
+h3{
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: var(--main-color);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #4682b4; /* Slightly darker shade for hover effect */
+}
+
+/* Skill Bars */
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
+
+.progress {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #32a87d;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+/* Grid Layout for Skills */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-md-6 {
+    width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        width: 100%;
+    }
+}
