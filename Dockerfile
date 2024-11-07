@@ -1,4 +1,3 @@
-# Use an official Nginx image
 FROM nginx:alpine
 
 # Copy the static files to Nginx's HTML directory
