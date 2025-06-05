@@ -1,6 +1,6 @@
 # Portfolio Application
 
-Welcome to my Portfolio Application! This project showcases my skills, projects, and experiences as a [Your Profession/Field]. The application is built using HTML, CSS, and JavaScript, and is containerized using Docker and orchestrated with Kubernetes.
+Welcome to my Portfolio Application! This project showcases my skills, projects, and experiences as a [Your Profession/Field]. The application is built using HTML, CSS, and JavaScript, and is containerized using Docker and orchestrated with Kubernetes
 
 
 
